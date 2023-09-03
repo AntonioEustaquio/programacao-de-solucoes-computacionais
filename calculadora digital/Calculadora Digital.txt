@@ -1,0 +1,19 @@
+package calculadoradigital;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner( System.in );
+int numero1, numero2, soma;
+
+System.out.print("informe o 1o numero:");
+numero1	=input.nextInt();
+
+System.out.print("informe o 2o numero:");
+numero2 =input.nextInt();
+
+soma= numero1 + numero2;
+System.out.println("A soma é:" + soma);
